@@ -1,6 +1,9 @@
 @use "base/_reset-meyers";
 @use "layouts/_header";
 @use "layouts/_footer";
+@use "layouts/_hero.sass";
+@use "layouts/_main";
+@use "components/_button";
 
 @import url("/node_modules/bootstrap-icons/font/bootstrap-icons.css");
 @import "custom";

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,170 +15,176 @@
       href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="scss/main.css">
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="scss/main.css" />
     <title>GeekOne</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="header navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-            <div class="container-fluid">
-              <a class="navbar__title navbar-brand" href="/">GeekOne</a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/"
-                      >Acceuil</a
+      <nav class="header navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar__title navbar-brand" href="/">GeekOne</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/"
+                  >Acceuil</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Jeux vidéo
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="/galerie-jeux-video">
+                      Nouveauté</a
                     >
                   </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link active dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Jeux vidéo
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a class="dropdown-item" href="/galerie-jeux-video">
-                          Nouveauté</a
-                        >
-                      </li>
-                      <li>
-                        <hr class="dropdown-divider" />
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="/jeux-ps5">
-                          Jeux de la PS5</a
-                        >
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="/jeux-xbox"
-                          >Jeux de la Xbox série s/x</a
-                        >
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="/jeux-switch"
-                          >Jeux de la Switch</a
-                        >
-                      </li>
-                    </ul>
+                  <li>
+                    <hr class="dropdown-divider" />
                   </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link active dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Jeux de société
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a class="dropdown-item" href="/jeux-de-carte"
-                          >Jeu de carte</a
-                        >
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="/Les-incontournables"
-                          >Les incontournables</a
-                        >
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#"
-                          >Les jeux a dépoussiérer</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link active dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Manga
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a class="dropdown-item" href="/galerie-mangas"
-                          >Nouveauté</a
-                        >
-                      </li>
-                      <li>
-                        <hr class="dropdown-divider" />
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="/Les-mangas">Nos mangas</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      >Réservation</a
+                  <li>
+                    <a class="dropdown-item" href="/jeux-ps5">
+                      Jeux de la PS5</a
                     >
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      >Mon compte</a
+                  <li>
+                    <a class="dropdown-item" href="/jeux-xbox"
+                      >Jeux de la Xbox série s/x</a
                     >
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      >Connexion/Déconnexion</a
+                  <li>
+                    <a class="dropdown-item" href="/jeux-switch"
+                      >Jeux de la Switch</a
                     >
                   </li>
                 </ul>
-              </div>
-            </div>
-          </nav>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Jeux de société
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="/jeux-de-carte"
+                      >Jeu de carte</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/Les-incontournables"
+                      >Les incontournables</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Les jeux a dépoussiérer</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Manga
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="/galerie-mangas"
+                      >Nouveauté</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/Les-mangas">Nos mangas</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Réservation</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Mon compte</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Connexion/Déconnexion</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main id="main-page">
-        <!--contenue du site-->
+      <!--contenue du site-->
     </main>
     <footer class="bg-dark text-white align-items-start footer">
-        <div class="row">
-          <div class="col-12 col-md-4">
-            <h3 class="text-primary font footer__title">GeekOne</h3>
-          </div>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <h3 class="text-primary font footer__title">GeekOne</h3>
         </div>
-        <div class="row">
-          <div class="col-12 col-md-4">
-            <p class="footer__title text-secondary ">HORAIRES</p>
-            <p>Du Lundi au samedi</p>
-            <p>9:00 - 12:00 14:00 - 19:00</p>
-          </div>
-          <div class="col-12 col-md-4">
-            <p class="footer__title text-secondary ">CONTACT</p>
-            <p><i class="bi bi-envelope-fill"></i> : contact@geekone.com</p>
-            <p><i class="bi bi-telephone-fill"></i> : 0475121212</p>
-          </div>
-          <div class="col-12 col-md-4">
-            <p class="footer__title text-secondary">ADRESSE</p>
-            <p>GeekOne, 10 rue du pécheur 26100 Romans</p>
-          </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <p class="footer__title text-secondary">HORAIRES</p>
+          <p>Du Lundi au samedi</p>
+          <p>9:00 - 12:00 14:00 - 19:00</p>
         </div>
-      </footer>
+        <div class="col-12 col-md-4">
+          <p class="footer__title text-secondary">CONTACT</p>
+          <p><i class="bi bi-envelope-fill"></i> : contact@geekone.com</p>
+          <p><i class="bi bi-telephone-fill"></i> : 0475121212</p>
+        </div>
+        <div class="col-12 col-md-4">
+          <p class="footer__title text-secondary">ADRESSE</p>
+          <p>GeekOne, 10 rue du pécheur 26100 Romans</p>
+        </div>
+      </div>
+    </footer>
 
     <script type="module" src="Router/router.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>

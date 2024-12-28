@@ -1,0 +1,40 @@
+@use "../abstracts/_main.sass" as abs
+.hero
+    position: relative
+    *
+        position: relative
+
+    &::before
+        content: ""
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: abs.rem(270)
+        background-image: url(../Images/chat.jpg)
+        filter: brightness(0.6)
+        background-size: cover
+        background-position: center
+
+    &__content
+        padding-top: abs.rem(25)
+        padding-bottom: abs.rem(25)
+        padding-left: abs.rem(24)
+        padding-right: abs.rem(24)
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-content: flex-start
+        flex-wrap: wrap
+        align-items: flex-start
+    
+    &__font
+        font-family: abs.$font-family-sans-serif
+
+
+@media screen and (min-width: 992px) 
+    
+
+            
+
+        

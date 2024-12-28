@@ -81,6 +81,50 @@ table {
   font-family: "Jomolhari", sans-serif;
 }
 
+.hero {
+  position: relative;
+}
+.hero * {
+  position: relative;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 16.875rem;
+  background-image: url(../Images/chat.jpg);
+  filter: brightness(0.6);
+  background-size: cover;
+  background-position: center;
+}
+.hero__content {
+  padding-top: 1.5625rem;
+  padding-bottom: 1.5625rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.hero__font {
+  font-family: "Jomolhari", sans-serif;
+}
+
+main {
+  margin-bottom: 16.6rem;
+}
+
+custom-button {
+  background-color: #2D2828;
+  font-family: "Inter", serif;
+  font-size: 3.4375rem;
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
